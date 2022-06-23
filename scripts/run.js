@@ -1,3 +1,6 @@
+// SPDX-License-Identifier : UNLICENSED
+
+
 const main = async () => {
     const [owner, randomPerson] = await hre.ethers.getSigners();
     const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
